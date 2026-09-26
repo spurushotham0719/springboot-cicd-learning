@@ -1,5 +1,6 @@
 package com.CICDWorkFlow.Greet;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -7,7 +8,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class GreetApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void greetingTest() {
+		Assertions.assertEquals("Hello World", "Wrong");
 	}
 
 }
