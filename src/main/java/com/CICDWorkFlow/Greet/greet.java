@@ -17,4 +17,9 @@ public class greet {
     public String morning(){
         return "Good Morning";
     }
+
+    @GetMapping("/evening")
+    public String evening(){
+        return "Good Evening";
+    }
 }
