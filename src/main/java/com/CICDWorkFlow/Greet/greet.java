@@ -12,4 +12,14 @@ public class greet {
     public String greet(){
         return "Hello, How Are You?";
     }
+
+    @GetMapping("/morning")
+    public String morning(){
+        return "Good Morning";
+    }
+
+    @GetMapping("/evening")
+    public String evening(){
+        return "Good Evening";
+    }
 }
